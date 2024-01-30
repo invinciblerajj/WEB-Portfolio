@@ -46,7 +46,7 @@ span{
     display: flex;
     justify-content: center;
 }
-@media (min-width: 300px) and (max-width: 575px) { 
+@media (min-width: 200px) and (max-width: 575px) { 
     .content{
         display: block;
     }
@@ -72,6 +72,31 @@ span{
 }
 
 @media (min-width:575px) and (max-width: 767px){
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1px;
+    }
+    header{
+        font-size: 14pt;
+    }
+    h2{
+        font-size: 33px;
+    }
+    .pro{
+        clip-path: circle(35%);
+    }
+    .logo{
+        height: 25px;
+        width: 25pt;
+    }
+    .con{
+        width: auto;
+    }
+
+}
+@media (min-width:766px) and (max-width: px){
     .content{
         display: flex;
         justify-content: center;
