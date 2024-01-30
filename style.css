@@ -1,0 +1,75 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1554258194-2559560eb20a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center; 
+    font-family: 'Rubik', sans-serif;
+}
+.bg-body-tertiary{
+    background-color: black;
+    color: aliceblue;
+}
+.navbar-collapse{
+    float: right;
+}
+.pic{
+    filter: invert(100%);
+}
+
+.content{
+    margin-top:80px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    
+}
+h2{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 48pt;
+}
+span{
+    color: orange;
+}
+.pro{
+    clip-path: circle(50%)
+}
+.social{
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+
+}
+
+@media (max-width: 576px){
+    .content{
+        display: block;
+    }
+    h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    header{
+        text-align: center;
+    }
+    .pro{
+        clip-path: circle(30%);
+    }
+    .headC{
+        text-align: center;
+    }
+    .ayu{
+        text-align: center;
+    }
+    .con{
+        margin-top: 20px;
+        font-size: 10pt;
+        width: 20%;
+    }
+}
+@media (min-width: 570px) and (max-width: 1199.98px) { 
+
+}
