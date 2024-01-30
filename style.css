@@ -41,35 +41,58 @@ span{
     display: flex;
     gap: 3%;
     justify-content: center;
-
 }
-
-@media (max-width: 576px){
+.ayu{
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 300px) and (max-width: 575px) { 
     .content{
         display: block;
     }
-    h2{
-        font-size: 30px;
-        text-align: center;
-    }
     header{
-        text-align: center;
-    }
-    .pro{
-        clip-path: circle(30%);
+        font-size: 12pt;
     }
     .headC{
         text-align: center;
     }
-    .ayu{
-        text-align: center;
+    h2{
+        font-size: 25px;
     }
     .con{
-        margin-top: 20px;
-        font-size: 10pt;
-        width: 20%;
+        width: auto;
+    }
+    .pro{
+        clip-path: circle(30%);
+    }
+    .logo{
+        height: 20px;
+        width: 20px;
     }
 }
-@media (min-width: 570px) and (max-width: 1199.98px) { 
+
+@media (min-width:575px) and (max-width: 767px){
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1px;
+    }
+    header{
+        font-size: 14pt;
+    }
+    h2{
+        font-size: 33px;
+    }
+    .pro{
+        clip-path: circle(35%);
+    }
+    .logo{
+        height: 25px;
+        width: 25pt;
+    }
+    .con{
+        width: auto;
+    }
 
 }
