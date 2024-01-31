@@ -120,6 +120,9 @@ span{
         align-items: center;
         padding-bottom: 80px;
     }
+    #conabt{
+        font-size: 11pt;
+    }
     .bor{
         height: 300px;
     }
