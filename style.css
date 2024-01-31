@@ -40,10 +40,7 @@ span{
     gap: 3%;
     justify-content: center;
 }
-.ayu{
-    display: flex;
-    justify-content: center;
-}
+
 /* Contact Page CSS starts*/
 #in{
     margin-left: 5%;
@@ -70,13 +67,28 @@ span{
 }
 .bor{
     border-radius: 30%;
-    border: 10px solid white;
+    border: 6px solid white;
 }
 .hi{
     text-align: center;
 }
 #conabt{
    margin-top: 50px;
+}
+.ca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.CV{
+    height: 900px;
+    border-radius: 10%;
+}
+.card-body{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5px;
 }
 /* Ends here */
 
@@ -130,6 +142,10 @@ span{
     #conabt{
         text-align: center;
     }
+    .CV{
+        height: 450px;
+        border-radius: 10%;
+    }
     /* About Us Ends */
 }
 
@@ -180,6 +196,10 @@ span{
     #conabt{
         text-align: center;
     }
+    .CV{
+        height: 600px;
+        border-radius: 10%;
+    }
     /* About US end */
 }
 
@@ -218,6 +238,10 @@ span{
     }
     #conabt{
         text-align: center;
+    }
+    .CV{
+        height: 700px;
+        border-radius: 10%;
     }
     /* About US End */
 
