@@ -68,6 +68,16 @@ span{
     justify-content: center;
     align-items: center;
 }
+.bor{
+    border-radius: 30%;
+    border: 10px solid white;
+}
+.hi{
+    text-align: center;
+}
+#conabt{
+   margin-top: 50px;
+}
 /* Ends here */
 
 @media (min-width: 200px) and (max-width: 575px) { 
@@ -100,6 +110,24 @@ span{
     .cot{
         font-size: 10pt;
     }
+    /* About Us */
+    .abt{
+        display: block;
+    }
+    #bord{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+    .bor{
+        height: 300px;
+    }
+
+    #conabt{
+        text-align: center;
+    }
+    /* About Us Ends */
 }
 
 @media (min-width:575px) and (max-width: 767px){
@@ -132,6 +160,24 @@ span{
     .cot{
         font-size: 15pt;
     }
+    /* About us  */
+    .abt{
+        display: block;
+    }
+    #bord{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+    .bor{
+        height: 400px;
+    }
+
+    #conabt{
+        text-align: center;
+    }
+    /* About US end */
 }
 
 @media (min-width:766px) and (max-width: 992px){
@@ -157,6 +203,21 @@ span{
     .con{
         width: auto;
     }
+    /* About US */
+    .abt{
+        display: block;
+    }
+    #bord{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+    #conabt{
+        text-align: center;
+    }
+    /* About US End */
+
 }
 @media (min-width:992px){
     .content{
