@@ -16,14 +16,12 @@ body {
 .pic{
     filter: invert(100%);
 }
-
 .content{
     margin-top:80px ;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10%;
-    
 }
 h2{
     font-family: 'Kanit', sans-serif;
@@ -46,12 +44,38 @@ span{
     display: flex;
     justify-content: center;
 }
+/* Contact Page CSS starts*/
+#in{
+    margin-left: 5%;
+    font-size: 150pt;
+}
+#touch{
+    color: orange;
+}
+.cot{
+    float:right;
+    color: white;
+    font-weight: lighter;
+    font-size: 14pt;
+    margin-top: 100px;
+}
+/* Contact Page CSS ends*/
+
+/* About Me CSS Start */
+.abt{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Ends here */
+
 @media (min-width: 200px) and (max-width: 575px) { 
     .content{
         display: block;
     }
     header{
-        font-size: 12pt;
+        font-size: 10pt;
     }
     .headC{
         text-align: center;
@@ -63,11 +87,18 @@ span{
         width: auto;
     }
     .pro{
-        clip-path: circle(30%);
+        clip-path: circle(29%);
     }
     .logo{
         height: 20px;
         width: 20px;
+    }
+    #in{
+        margin-left: 10%;
+        font-size: 50pt;
+    }
+    .cot{
+        font-size: 10pt;
     }
 }
 
@@ -79,45 +110,56 @@ span{
         margin-top: 1px;
     }
     header{
-        font-size: 14pt;
+        font-size: 12pt;
     }
     h2{
         font-size: 33px;
     }
     .pro{
-        clip-path: circle(35%);
+        clip-path: circle(30%);
     }
     .logo{
-        height: 25px;
-        width: 25pt;
+        height: 20px;
+        width: 20pt;
     }
     .con{
         width: auto;
     }
-
+    #in{
+        margin-left: 10%;
+        font-size: 80pt;
+    }
+    .cot{
+        font-size: 15pt;
+    }
 }
-@media (min-width:766px) and (max-width: px){
+
+@media (min-width:766px) and (max-width: 992px){
     .content{
-        display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 1px;
     }
     header{
-        font-size: 14pt;
+        width:100% ;
+        font-size: 12pt;
     }
     h2{
-        font-size: 33px;
+        font-size: 280%;
     }
     .pro{
-        clip-path: circle(35%);
+        clip-path: circle(140px);
     }
     .logo{
-        height: 25px;
-        width: 25pt;
+        height: 20px;
+        width: 20pt;
     }
     .con{
         width: auto;
     }
-
+}
+@media (min-width:992px){
+    .content{
+        gap: 20%;
+    }
 }
