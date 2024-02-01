@@ -41,6 +41,7 @@ span{
     justify-content: center;
 }
 
+
 /* Contact Page CSS starts*/
 #in{
     margin-left: 5%;
@@ -92,6 +93,34 @@ span{
 }
 /* Ends here */
 
+/* Skills CSS */
+.skill{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 400px 400px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    column-gap: 40px;
+}
+/* Skills CSS ends */
+
+/* Exp.html CSS */
+.proj{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 325px 325px 325px;
+    column-gap: 10px;
+}
+.bx{
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* Exp.html Ends */
 @media (min-width: 200px) and (max-width: 575px) { 
     .content{
         display: block;
@@ -148,6 +177,34 @@ span{
         border-radius: 10%;
     }
     /* About Us Ends */
+
+    /* Skill CSS */
+    .skill{
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .box
+    {
+        margin-top: 20px;
+    }
+    .box>p{
+        font-size: 10pt;
+    }
+    /* Skills CSS Ends */
+    .proj{
+        display: block;
+    }
+    .bx{
+        margin-top: 10px;
+        margin-left:10px ;
+        margin-right: 10px;
+        font-size: 11pt;
+        margin-bottom: 10px;
+    }
+    h5{
+        font-size: 13pt;
+    }
 }
 
 @media (min-width:575px) and (max-width: 767px){
@@ -202,6 +259,14 @@ span{
         border-radius: 10%;
     }
     /* About US end */
+    
+    /* Skill CSS */
+    .skill{
+        grid-template-rows: 100px 100px 100px;
+        grid-template-columns: 250px 250px;
+    }
+   
+    /* Skills CSS Ends */
 }
 
 @media (min-width:766px) and (max-width: 992px){
@@ -245,6 +310,14 @@ span{
         border-radius: 10%;
     }
     /* About US End */
+
+     /* Skill CSS */
+    .skill{
+        grid-template-rows: 100px 100px 100px;
+        grid-template-columns: 350px 350px;
+    }
+   
+    /* Skills CSS Ends */
 
 }
 @media (min-width:992px){
