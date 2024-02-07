@@ -205,9 +205,16 @@ span{
     h5{
         font-size: 13pt;
     }
+    .bx h6{
+        font-size: 10pt;
+    }
+    .bx h4{
+        font-size: 14pt;
+    }
+   
 }
 
-@media (min-width:575px) and (max-width: 767px){
+@media (min-width:575px) and (max-width: 769px){
     .content{
         display: flex;
         justify-content: center;
@@ -267,9 +274,29 @@ span{
     }
    
     /* Skills CSS Ends */
+    .proj{
+        display: block;
+    }
+    .bx{
+        margin-top: 10px;
+        margin-left:10px ;
+        margin-right: 10px;
+        font-size: 11pt;
+        margin-bottom: 10px;
+    }
+    h5{
+        font-size: 15pt;
+    }
+    .bx h6{
+        font-size: 12pt;
+    }
+    .bx h4{
+        font-size: 15pt;
+    }
+
 }
 
-@media (min-width:766px) and (max-width: 992px){
+@media (min-width:770px) and (max-width: 992px){
     .content{
         justify-content: center;
         align-items: center;
